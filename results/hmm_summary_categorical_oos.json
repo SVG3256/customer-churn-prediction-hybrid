@@ -1,0 +1,12 @@
+{
+  "model_type": "CategoricalHMM",
+  "n_hidden_states": 8,
+  "n_observable_states": 9,
+  "n_sequences": 155369,
+  "n_observations": 430433,
+  "log_likelihood": -502587.993581145,
+  "converged": true,
+  "escalation_rate": 21.531965836170663,
+  "avg_escalation_time_days": 53.29341782746458,
+  "multi_complaint_only": true
+}
