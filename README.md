@@ -13,6 +13,8 @@ The core idea is the **Dual-Signal Framework**:
 * **NLP Signals:** A static classifier that evaluates immediate content risk (Topic, Sentiment, and Keywords).
 * **HMM Signals:** A behavioral engine that identifies "procedural loops" and latent frustration states through synthetic sequence simulation.
 
+Refer to the ```CS5100_Project_Report.pdf``` for a detailed breakdown of the project.
+
 ---
 
 ## Technical Architecture
@@ -50,6 +52,7 @@ The core idea is the **Dual-Signal Framework**:
 | `10_HMM_Training_Categorical.ipynb` | Simulation of customer journeys and HMM state discovery. |
 | `11_Final_Integration.ipynb` | Final Dual-Signal analysis and Risk vs. Resolution cross-tabulation. |
 
+#### The images of final results can be viewed in the ```/results``` folder.
 ---
 
 ## Installation & Usage
@@ -72,6 +75,8 @@ The core idea is the **Dual-Signal Framework**:
 
 ## Dataset
 Raw data can be obtained from [CFPB Consumer Complaint Database](https://www.consumerfinance.gov/data-research/consumer-complaints/#get-the-data)
+
+Intermediate processed files and final output files can be accessed here: [CFPB Complaint Analysis - Google Drive](https://drive.google.com/drive/folders/1TNX0t7yQfElEghsSzrHBD8hzupMrn7ph?usp=drive_link)
 
 ---
 
