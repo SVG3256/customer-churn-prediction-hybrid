@@ -56,19 +56,25 @@ Refer to the ```CS5100_Project_Report.pdf``` for a detailed breakdown of the pro
 ---
 
 ## Installation & Usage
-
+Note: Ensure that a compatible Python version 3.10+ is installed on the system.
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/shubhamghode/customer-churn-prediction-hybrid.git
    cd customer-churn-prediction-hybrid
    ```
 
-2. **Install dependencies:**
+2. **Create a virtual environment (optional but recommended)**
    ```bash
-   pip install pandas numpy scikit-learn xgboost hmmlearn vaderSentiment nltk tqdm
+   python -m venv cfpb_env
+   source cfpb_env/bin/activate  # On Windows use: cfpb_env\Scripts\activate
    ```
 
-3. **Execution Order:**
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Execution Order:**
    Run the notebooks in numerical order (`1_` through `11_`) to rebuild the pipeline from raw data to final integration.
 
 ---
